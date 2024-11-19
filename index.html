@@ -1,0 +1,225 @@
+<html>
+<head>
+    <meta charset="utf-8-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;
+    700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href= "./css/index.css" rel="stylesheet">
+  <title>Jasmine Samadi</title>
+  </head>
+  <header class="main-header">
+       <nav class="main-nav">
+             <ul>
+                <li><a href="#home" class = "nav-link">home</a></li>
+                <li><a href="#about" class = "nav-link">about me</a></li>
+                <li><a href="#experience" class = "nav-link">experience</a></li>
+                <!--<li><a href="resume" class = "nav-link">resume</a></li> -->
+              </ul>
+       </nav>
+   </header>
+
+<body>
+  <section id="home" class="content">
+  <main class="content">
+      <div class="profile">
+          <img src="./img/AOE_Headshot_FA24_1 copy.png" alt="Jasmine Samadi" class="profile-pic">
+          <div class="profile-info">
+              <h1 class="name">Jasmine Samadi</h1>
+              <p class="title">Cornell Operations Research <br> & Information Engineering</p>
+              <div class="contact-info">
+                <div class ="contact-row">
+                  <p><span>📞</span> +1 (516)-519-2553</p>
+                  <p><span>📧</span> <a href="mailto:jns222@cornell.edu">jns222@cornell.edu</a></p>
+                  </div>
+                  <p><span>🔗</span> <a href="https://linkedin.com/in/jasminesamadi" target="_blank">linkedin.com/in/jasminesamadi</a></p>
+              </div>
+          </div>
+      </div>
+  </main>
+  </section>
+
+  <!-- about me section-->
+  <section id="about" class="about-section">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>About Me:</h2>
+            <p>Hi! I'm Jasmine, an incoming Technical Business Analyst
+              on the Corporate and Corporate Financial Systems team at Apollo
+              Global Management.
+              <br>
+              <br> In December 2024 I am graduating from Cornell University
+              with my B.S. in Operations Research and Information Engineering (ORIE).
+              In May I will graduate with an ORIE M.Eng concerntrating in Applied Operations Research.
+              <br><br>
+
+              I love taekwondo! Recently I attained my fourth degree black belt
+              and became a junior master. Otherwise you can find me playing tennis,
+              hiking, traveling, and learning about different people, places and cultures.
+
+
+          </p>
+        </div>
+        <div class="about-image">
+            <img src="./img/statue_of_liberty.png" alt="Jasmine Samadi" class="about-pic">
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience-section">
+    <h2>Experience</h2>
+    <div class="experience-container">
+        <div class="experience-bubble" onclick="openModal('experience1')">
+            <h3>Bank of America</h3>
+            <p>Global Quantitative Analytics Summer Analyst</p>
+        </div>
+        <div class="experience-bubble" onclick="openModal('experience2')">
+            <h3>Women in Computing at Cornell (WICC)</h3>
+            <p>Advisor, Co-President, E-Board Member</p>
+        </div>
+        <div class="experience-bubble" onclick="openModal('experience3')">
+            <h3>Cornell Electrical and Computer Engineering</h3>
+            <p>Power Systems Student Researcher</p>
+        </div>
+        <div class="experience-bubble" onclick="openModal('experience4')">
+            <h3>AlgoLink</h3>
+            <p>Software Engineering Intern</p>
+        </div>
+        <div class="experience-bubble" onclick="openModal('experience5')">
+            <h3>Cornell Extreme Values in Finance</h3>
+            <p>Quantitative Research Analyst</p>
+        </div>
+        <div class="experience-bubble" onclick="openModal('experience6')">
+            <h3>Cornell ORIE</h3>
+            <p>Data Analyst</p>
+        </div>
+    </div>
+</section>
+
+<!-- Modal for Experience One -->
+<div id="experience1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience1')">&times;</span>
+        <h2 class="modal-title">Bank of America</h2>
+        <div class="modal-body">
+
+        <p class="modal-description">
+          During my summer internship at Bank of America, I was a quantitative analyst intern
+          on the US Global Credit Trading Risk Management team.
+          <br> <br>
+          We oversaw US IG, US HY, EMEA Credit, CEMEA Credit, CLOs, US Distressed,
+          LATAM Credit, and LATAM Distressed Desks.
+          <br>
+          I learned about credit risk management by calculating and analyzing the
+          10-day SVaR, 3-year VaR, Financial Crisis, and Rapid Rates Increase metrics.
+          Afterwards, I assessed their impact on portfolio risk and trading strategies.
+
+          <br> <br>
+          My intern project consisted of an analysis of aged inventory data to evaluate the impact of
+          policy changes on internal trends across trading desks, traders, products, positions, and times of the year.
+</p>
+        <img src="./img/bofa_pic.png" alt="Jasmine Samadi">
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Experience Two -->
+<div id="experience2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience2')">&times;</span>
+        <h2 class="modal-title">Women in Computing at Cornell (WICC)</h2>
+        <div class="modal-body">
+        <p class="modal-description">Women in Computing at Cornell (WICC) strives to create
+        an inclusive community for women and gender minorities in technology.
+
+      <br> <br>
+        I first joined WICC as a social director, then transitioned to corporate director.
+        Soon, I became VP of Outreach. In this role I organized the middle and high school
+      Girls Who Code porgram. We also ran robotics workshops for local Ithaca community.
+      Wanting to be more involved, my junior year I became Co-President. In this role
+    I oversaw the Community, Operations, Academic, Corporate, Brand, and Outreach teams.
+  This consisted of 35 executive board members, 200+ active members, and 2000+ listserv recipients.
+
+<br> <br> I now serve as an advsior to the team!
+</p>
+        <img src="./img/wicc.png" alt="Jasmine Samadi">
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Experience Three -->
+<div id="experience3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience3')">&times;</span>
+        <h2 class="modal-title">Power Systems Research</h2>
+        <div class="modal-body">
+        <p class="modal-description">Within Cornell's Electrical and Computer Engineering
+        department, I conducted research with Professor Hsiao-Dong Chiang and Dr. Lin Zeng.
+      <br><br> We used partial state estimation in MATLAB to keep reliable power
+    in a Navy ship power system during combat. We regularly gave reccomendations to the US Navy. </p>
+        <img src="./img/state_estimation.png" alt="Jasmine Samadi">
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Experience Four -->
+<div id="experience4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience4')">&times;</span>
+        <h2 class="modal-title">AlgoLink Software Engineer</h2>
+        <div class="modal-body">
+        <p class="modal-description">At AlgoLink, I collaborated with a team of
+          five developers to create a machine learning based recommendation system.
+          The system reccomended artificial intelligence generated courses,
+          using decision trees to personalize learning tracks <br> <br>
+        Because AlgoLink is a startup, I wore many hats. Throughout the internship, I designed
+        and implemented the user interface of the website using React, HTML, CSS and Figma.    </p>
+        <!--<img src="./img/wicc.png" alt="Jasmine Samadi"> -->
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Experience Five -->
+<div id="experience5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience5')">&times;</span>
+        <h2 class="modal-title">Quantitative Research Analyst</h2>
+        <div class="modal-body">
+        <p class="modal-description"> In this project, I conducted quantitative research
+          by analyzing historical data from April 23rd, 2019 to April 23rd, 2024. This data focused on
+           Novo Nordisk and NVIDIA stocks sourced from Yahoo Finance. <br><br>
+           We developed R code, utilizing mean excess plots and estimators
+           (including Pickands, Hills, and Moment Estimators) to assess tail
+           behavior and estimate shape parameters. <br>Our outcome revealed a heavy-tailed distributions for both stocks.
+</p>
+        <!--<img src="./img/wicc.png" alt="Jasmine Samadi"> -->
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Experience Six -->
+<div id="experience6" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience6')">&times;</span>
+        <h2 class="modal-title">ORIE Data Analyst</h2>
+        <div class="modal-body">
+        <p class="modal-description">This project entailed using Python to
+          determine the relationship between a UN policy, addressing more women in
+          the decision making process, and Gender Inequality Index (GII).
+          <br> Here, I created a Python-based predictive model with a train-test
+          split methodology on time series data. <br><br>
+          In addition, my team and I analyzed the relationship between
+          Gender Inequality Index (GII) and adolescent birth rates,
+          percentage of males with secondary education, and country
+          classification using regression techniques in Python.
+</p>
+         <!-- <img src="./img/wicc.png" alt="Jasmine Samadi">  --> 
+        </div>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+
+
+</body>
+</html>
