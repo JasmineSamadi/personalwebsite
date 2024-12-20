@@ -265,11 +265,21 @@ body {
     color: #333;
 }
 
+
 .modal-content img {
-    width: 150px;
-    height: auto;
-    margin-top: 0;
+    /*flex: 2;
+    /*float: right; /*adding float */
+    flex: 0 0 40%; /* Prevent image from shrinking or growing */
+    /*width: 40%; */
+    max-width: 400px;
     border-radius: 10px;
+    align-self: flex-start;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add space below the image for wrapping */
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .modal-content p {
@@ -277,13 +287,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    word-wrap: break-word;
+    margin: 0;
 }
 
 .modal-body {
     display: flex; /* Align items side by side */
     gap: 20px; /* Space between description and image */
-    justify-content: space-between; /* Spread items across the row */
-    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    justify-content: center;
+    text-align: center;
 }
 
 .close {
