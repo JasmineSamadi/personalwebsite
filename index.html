@@ -43,18 +43,21 @@
     <div class="about-container">
         <div class="about-text">
             <h2>About Me:</h2>
-            <p>Hi! I'm Jasmine, an incoming Technical Business Analyst
-              on the Corporate and Corporate Financial Systems team at Apollo
-              Global Management.
+            <p>Hi! I'm Jasmine, soon to be joining Apollo Global Management as a
+              Technical Business Analyst on the Corporate and Corporate Financial
+              Systems team. I'm excited about using my data science skills to
+              tackle complex problems and uncover the underlying patterns that drive real-world decisions.
               <br>
-              <br> In December 2024 I am graduating from Cornell University
-              with my B.S. in Operations Research and Information Engineering (ORIE).
-              In May I will graduate with an ORIE M.Eng concerntrating in Applied Operations Research.
+              <br> I'm currently finishing my degree at Cornell University,
+              where I’ll be graduating in December 2024 with a B.S. in Operations Research and Information Engineering (ORIE).
+              I have started a joint B.S./MEng program where in May I will graduate with an ORIE M.Eng concerntrating in Applied Operations Research.
+              I am interested in ORIE because it combines the power of data science, mathematical modeling, and optimization to solve complex,
+              real-world problems.
               <br><br>
 
-              I love taekwondo! Recently I attained my fourth degree black belt
-              and became a junior master. Otherwise you can find me playing tennis,
-              hiking, traveling, and learning about different people, places and cultures.
+              Outside of academics and work, I’m dedicated to taekwondo and recently earned my fourth-degree black belt, officially becoming a junior master!
+              When I'm not on the mat, you can find me playing tennis, hiking in nature, traveling to new places, and constantly learning about different cultures.
+              I believe every experience is an opportunity for growth, and I'm always up for an adventure!
 
 
           </p>
@@ -93,6 +96,20 @@
             <h3>Cornell ORIE</h3>
             <p>Data Analyst</p>
         </div>
+
+
+        <div class="experience-bubble" onclick="openModal('experience7')">
+            <h3>Cornell Custom Silicon Systems</h3>
+            <p>Project Manager</p>
+        </div>
+        <div class="experience-bubble" onclick="openModal('experience8')">
+            <h3>ORSuite</h3>
+            <p>Research Analyst</p>
+        </div>
+        <div class="experience-bubble" onclick="openModal('experience9')">
+            <h3>Cornell Simulation Modeling</h3>
+            <p>Simulation Analyst</p>
+        </div>
     </div>
 </section>
 
@@ -100,18 +117,19 @@
 <div id="experience1" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeModal('experience1')">&times;</span>
-        <h2 class="modal-title">Bank of America</h2>
+        <h2 class="modal-title">Bank of America - Quantitative Risk Analyst</h2>
         <div class="modal-body">
 
         <p class="modal-description">
           During my summer internship at Bank of America, I was a quantitative analyst intern
           on the US Global Credit Trading Risk Management team.
           <br> <br>
-          We oversaw US IG, US HY, EMEA Credit, CEMEA Credit, CLOs, US Distressed,
+          We oversaw the US Investment Grade, US High Yield, EMEA Credit, CEMEA Credit,
+          Collateralized Loan Obligation, US Distressed,
           LATAM Credit, and LATAM Distressed Desks.
-          <br>
+          <br><br>
           I learned about credit risk management by calculating and analyzing the
-          10-day SVaR, 3-year VaR, Financial Crisis, and Rapid Rates Increase metrics.
+          10-day (Stressed Value at Risk) SVaR, 3-year VaR, Financial Crisis, and Rapid Rates Increase metrics.
           Afterwards, I assessed their impact on portfolio risk and trading strategies.
 
           <br> <br>
@@ -133,16 +151,24 @@
         an inclusive community for women and gender minorities in technology.
 
       <br> <br>
-        I first joined WICC as a social director, then transitioned to corporate director.
-        Soon, I became VP of Outreach. In this role I organized the middle and high school
-      Girls Who Code porgram. We also ran robotics workshops for local Ithaca community.
-      Wanting to be more involved, my junior year I became Co-President. In this role
+        I initially joined WICC as a Social Director, later transitioning to Corporate Director.
+        Shortly after, I became VP of Outreach, where I organized the middle and high school
+        Girls Who Code program and led robotics workshops for the local Ithaca community.
+        Eager to contribute further, my junior year I became Co-President. In this role
     I oversaw the Community, Operations, Academic, Corporate, Brand, and Outreach teams.
   This consisted of 35 executive board members, 200+ active members, and 2000+ listserv recipients.
 
-<br> <br> I now serve as an advsior to the team!
-</p>
+<br> <br> I now serve as an advsior to the team!<br><br>
+<div class="modal-links">
+    <p>You can learn more here:</p>
+    <p>
+        <a href="https://news.cornell.edu/stories/2023/04/celebrating-decade-community-computing" target="_blank">The Cornell Chronicle</a><br>
+        <a href="https://cornellsun.com/2024/03/25/cracking-the-code-women-in-computing-at-cornell-bridges-gender-gaps-fosters-mentorship" target="_blank">The Cornell Daily Sun</a>
+    </p>
+</div>
+
         <img src="./img/wicc.png" alt="Jasmine Samadi">
+        <br><br>
         </div>
     </div>
 </div>
@@ -153,10 +179,12 @@
         <span class="close" onclick="closeModal('experience3')">&times;</span>
         <h2 class="modal-title">Power Systems Research</h2>
         <div class="modal-body">
-        <p class="modal-description">Within Cornell's Electrical and Computer Engineering
-        department, I conducted research with Professor Hsiao-Dong Chiang and Dr. Lin Zeng.
-      <br><br> We used partial state estimation in MATLAB to keep reliable power
-    in a Navy ship power system during combat. We regularly gave reccomendations to the US Navy. </p>
+        <p class="modal-description">As a Power Systems Researcher,
+          I conducted research with Professor Hsiao-Dong Chiang and Dr. Lin Zeng on state estimation for Navy shipboard electrical systems.
+          <br><br>
+          Our work focused on using partial state estimation in MATLAB to ensure reliable power distribution within a Navy ship's power system, particularly during combat scenarios where damage to the system may occur.
+          The research involved developing methodologies to maintain operational integrity under adverse conditions, and we regularly provided recommendations to the U.S. Navy.
+        </p>
         <img src="./img/state_estimation.png" alt="Jasmine Samadi">
         </div>
     </div>
@@ -168,13 +196,16 @@
         <span class="close" onclick="closeModal('experience4')">&times;</span>
         <h2 class="modal-title">AlgoLink Software Engineer</h2>
         <div class="modal-body">
-        <p class="modal-description">At AlgoLink, I collaborated with a team of
-          five developers to create a machine learning based recommendation system.
-          The system reccomended artificial intelligence generated courses,
-          using decision trees to personalize learning tracks <br> <br>
-        Because AlgoLink is a startup, I wore many hats. Throughout the internship, I designed
-        and implemented the user interface of the website using React, HTML, CSS and Figma.    </p>
-        <!--<img src="./img/wicc.png" alt="Jasmine Samadi"> -->
+        <p class="modal-description">As a Software Engineering Intern at AlgoLink
+        I collaborated with a team of five developers to design and implement a
+        machine learning-based recommendation system for AI-generated courses. <br> <br>
+        Leveraging decision trees, the system was tailored to personalize learning
+        tracks and enhance user engagement. In addition to contributing to the
+        back-end functionality, I designed and developed the user interface of the
+        platform using React, HTML, CSS, and Figma, ensuring a seamless and intuitive
+        user experience. This role allowed me to combine my expertise in software
+        development with machine learning to create impactful educational tools.    </p>
+        <img src="./img/AI_Academy.png" alt="Jasmine Samadi">
         </div>
     </div>
 </div>
@@ -185,14 +216,22 @@
         <span class="close" onclick="closeModal('experience5')">&times;</span>
         <h2 class="modal-title">Quantitative Research Analyst</h2>
         <div class="modal-body">
-        <p class="modal-description"> In this project, I conducted quantitative research
-          by analyzing historical data from April 23rd, 2019 to April 23rd, 2024. This data focused on
-           Novo Nordisk and NVIDIA stocks sourced from Yahoo Finance. <br><br>
-           We developed R code, utilizing mean excess plots and estimators
-           (including Pickands, Hills, and Moment Estimators) to assess tail
-           behavior and estimate shape parameters. <br>Our outcome revealed a heavy-tailed distributions for both stocks.
+        <p class="modal-description"> As a final project for Cornell's Extreme Values in Finance class,
+          I conducted quantitative research analyzing historical data on Novo Nordisk and NVIDIA stocks, sourced from Yahoo Finance.
+          <br><Br>
+            Using R, I developed code to assess tail behavior and estimate shape parameters through mean excess plots
+            and estimators such as Hills, Pickands, and Moment. The findings revealed that both stocks exhibit heavy-tailed distributions,
+            fitting a Frechet distribution. I also calculated the extremal index to analyze the clustering of extreme values,
+             identifying that a significant portion of extreme data occurs in clusters for both stocks.
+             <br><br>
+             The research highlighted similar clustering behaviors between the two stocks and provided insights into their tail risk.
+             <br><br>
+
 </p>
         <!--<img src="./img/wicc.png" alt="Jasmine Samadi"> -->
+        <iframe src="./pdf/ORIE_4656_Final.pdf"
+           width="100%" height="600px" style="border: none;">
+         </iframe>
         </div>
     </div>
 </div>
@@ -203,17 +242,118 @@
         <span class="close" onclick="closeModal('experience6')">&times;</span>
         <h2 class="modal-title">ORIE Data Analyst</h2>
         <div class="modal-body">
-        <p class="modal-description">This project entailed using Python to
-          determine the relationship between a UN policy, addressing more women in
-          the decision making process, and Gender Inequality Index (GII).
-          <br> Here, I created a Python-based predictive model with a train-test
-          split methodology on time series data. <br><br>
-          In addition, my team and I analyzed the relationship between
-          Gender Inequality Index (GII) and adolescent birth rates,
-          percentage of males with secondary education, and country
-          classification using regression techniques in Python.
+        <p class="modal-description">
+          This project analyzed the relationship between the Gender Inequality Index (GII)
+          and social and economic factors, leveraging Python for statistical modeling and data visualization.
+          GII is a composite number developed by the United Nations indicating gender disparity, where
+          a GII of 0 indicates perfect gender equality and 1 indicates maximum gender inequality.
+          <br><br>
+          We examined over 190 countries and explored factors including adolescent birth rates,
+          secondary education rates, and UN policies aimed at increasing women's representation in decision-making.
+          A Python-based predictive model with a train-test split methodology was implemented to analyze time series data,
+          providing insights into trends and correlations.
+          <br><br>
+          Logistic regression demonstrated that GII is a significant predictor for
+          classifying a country's development status.
+          Regression analysis revealed that GII has a strong, negative impact on male secondary education attainment and a positive correlation with adolescent birth rates.
+          Policies like UN Resolution 2242 were analyzed through time-series modeling,
+          by predicting GII data as if these policies were not put into place and comparing them with actual data.
+          <br><br>
 </p>
-         <!-- <img src="./img/wicc.png" alt="Jasmine Samadi">  --> 
+      <iframe src="./pdf/ORIE3120_Final.pdf"
+        width="100%" height="600px" style="border: none;">
+      </iframe>
+         <!-- <img src="./img/wicc.png" alt="Jasmine Samadi">  -->
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for Experience Seven -->
+<div id="experience7" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience6')">&times;</span>
+        <h2 class="modal-title">Cornell Custom Silicon Systems Project Manager</h2>
+        <div class="modal-body">
+        <p class="modal-description">As a Project Manager for Cornell Custom Silicon Systems (C2S2)
+          I led the creation and management of a new custom chip design team by
+          developing technical milestones and roadmaps to guide our progress.
+          <br><br>
+          I spearheaded a collaboration between C2S2 and the Cornell Lab of Ornithology
+          to design a custom chip that supports research on bird migration patterns.
+          In addition to overseeing technical efforts, I managed our campus partnership,
+          enhanced external branding, and organized social events to foster a cohesive team environment.
+          <br><br> Furthermore, I created and maintained the team’s official website,
+          c2s2.engineering.cornell.edu, ensuring our mission and achievements
+</p>
+         <img src="./img/C2S2_pcb.png" alt="Jasmine Samadi">
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Experience Eight -->
+<div id="experience8" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience6')">&times;</span>
+        <h2 class="modal-title">ORSuite Research Analyst</h2>
+        <div class="modal-body">
+        <p class="modal-description">As part of a research project under Cornell PI
+          Sean Sinclair and Professor Sid Banerjee, I utilized reinforcement learning
+          to create natural models that maximize rewards in unknown environments.
+          I developed the ORSuite experiment guide, providing comprehensive instructions
+          on how to read and run experiments, ensuring accessibility for researchers and students.
+          <br><br>
+          My work included resolving critical errors in the Ambulance Routing metric
+          and graph environment to optimize the placement and dispatching of ambulances.
+          This project focused on addressing the ambulance routing problem by modeling an
+          environment where ambulances are stationed at various locations, and calls require
+           an ambulance to respond.
+          <br><br> The goal was to minimize the total distance traveled,
+          both between calls and in response to emergencies, by optimizing the
+          strategic placement of ambulances to achieve efficient and effective
+          responses.
+</p>
+         <!--<img src="./img/C2S2_pcb.png" alt="Jasmine Samadi"> -->
+
+         <!-- Embedded PDF preview -->
+         <div class="pdf-container">
+           <iframe src="https://orsuite.readthedocs.io/en/latest/experiment_guide.html"
+              width="100%" height="600px" style="border: none;">
+            </iframe>
+            <p>
+    <a href="https://orsuite.readthedocs.io/en/latest/experiment_guide.html" target="_blank">
+        View the full Experiment Guide
+    </a>
+</p>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Experience Nine -->
+<div id="experience9" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('experience6')">&times;</span>
+        <h2 class="modal-title">Simulation Modeling Analyst</h2>
+        <div class="modal-body">
+        <p class="modal-description">This project explores biases in hiring processes
+          that lead to gender disparity in the workplace, specifically the favoring
+          of male candidates, by simulating hiring and promotion practices.
+          <br><br>
+        We model gender, seniority, homophily bias, and education level as key factors
+        affecting hiring and promotion decisions, investigating their independent and combined effects.
+        The simulation uses a Markov chain model to track gender distribution across corporate levels,
+        with factors such as promotion bias and departure rates influencing outcomes.
+        <br><br>
+        Our findings suggest that initial gender imbalance, especially at senior levels,
+        exacerbates gender disparities over time, and that education can help reduce these d
+        isparities even in the presence of homophily bias. The model highlights the importance of
+        addressing both gender bias in hiring and the retention of women in senior positions to
+        improve overall workplace diversity. Based on the results, we recommend promoting merit-based evaluations and
+        focusing on reducing departure rates to foster a more equitable work environment.
+          <br><br>
+</p>
+        <!-- <img src="./img/C2S2_pcb.png" alt="Jasmine Samadi"> -->
         </div>
     </div>
 </div>
