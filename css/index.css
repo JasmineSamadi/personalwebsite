@@ -245,10 +245,6 @@ body {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5); /* Background overlay */
-<<<<<<< HEAD
-
-=======
->>>>>>> 93c4cd3e51e6b254a0876276df38921e852fdd67
 }
 
 .modal-content {
@@ -259,13 +255,7 @@ body {
     border-radius: 20px;
     width: 60%;
     text-align: center;
-<<<<<<< HEAD
-    /*text-align: left; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /*position: relative; /*new */
-=======
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
->>>>>>> 93c4cd3e51e6b254a0876276df38921e852fdd67
 }
 
 .modal-title {
@@ -275,10 +265,6 @@ body {
     color: #333;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 93c4cd3e51e6b254a0876276df38921e852fdd67
 .modal-content img {
     /*flex: 2;
     /*float: right; /*adding float */
@@ -297,18 +283,11 @@ body {
 
 .modal-content p {
     flex: 1; /* Allow text to take up remaining space */
-<<<<<<< HEAD
-    /*flex: 1 1 50%; /* Allow text to grow and shrink as needed */
-    /*flex: 1 1 auto; */
-    /*flex: 1 1 calc(60% - 20px); */
-=======
->>>>>>> 93c4cd3e51e6b254a0876276df38921e852fdd67
     font-size: 16px;
     line-height: 1.5;
     color: #333;
     word-wrap: break-word;
     margin: 0;
-<<<<<<< HEAD
     /*overflow: hidden; */
 }
 
@@ -339,19 +318,6 @@ body {
     color: #4A90E2; /* You can change this to your preferred link color */
     text-decoration: none; /* Removes underline */
     font-weight: bold; /* Optional: make the links bold */
-=======
-}
-
-.modal-body {
-    display: flex; /* Align items side by side */
-    gap: 20px; /* Space between description and image */
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-    text-align: left;
-    justify-content: center;
-    text-align: center;
->>>>>>> 93c4cd3e51e6b254a0876276df38921e852fdd67
 }
 
 .close {
@@ -365,7 +331,6 @@ body {
 .close:hover {
     color: #9191ff;
 }
-<<<<<<< HEAD
 
 .pdf-container {
     width: 100%;
@@ -383,4 +348,3 @@ body {
 }
 
 =======
->>>>>>> 93c4cd3e51e6b254a0876276df38921e852fdd67
